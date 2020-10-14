@@ -1,0 +1,313 @@
+/* 公共页面头部 */
+.page-top{
+    height: 30px;
+    background-color: #dddddd;
+    color: #AAAAAA;
+    min-width: 1500px;
+}
+.container{
+    width: 1206px;
+    margin: auto;
+}
+/* 左边 */
+.page-top .page-top-l{
+    float: left;
+}
+.page-top .page-top-l .location-box{
+    width: 60px;
+    position: relative;
+}
+.page-top .page-top-l .location-box .iconfont.icon-ziyuan{
+    color: red;
+    margin-left: 8px;
+}
+.page-top .page-top-l .location-box .title{
+    font-size: 10px;
+    line-height: 30px;
+}
+/* 选择地区下拉菜单 */
+.page-top .page-top-l .location-box:hover{
+    background-color: #fff;
+}
+.page-top .page-top-l .location-box:hover .title{
+    color: red;
+}
+.page-top .page-top-l .location-box:hover .location-pop{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+.page-top .page-top-l .location-box .location-pop{
+    width: 320px;
+    height: 190px;
+    padding-top: 5px;
+    display: none;    
+    box-shadow:1px 2px 1px rgba(0,0,0,.1);
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    overflow: hidden;
+}
+.page-top .page-top-l .location-box .location-pop a{
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 25px;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+.page-top .page-top-l .location-box .location-pop a:hover{
+    background-color: #EEEEEE;
+    color: red;
+}
+/* 右边 */
+.page-top .page-top-r{
+    float: right;    
+}
+.page-top .page-top-r .login,
+.page-top .page-top-r .register,
+.page-top .page-top-r .order,
+.page-top .page-top-r .webnav,
+.page-top .page-top-r .membership{
+    display: inline-block;
+    font-size: 10px;
+    line-height: 30px;
+    margin: 0 8px;
+}
+.page-top .page-top-r .myJD{
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 8px;
+    line-height: 28px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.page-top .page-top-r .cellphoneJD{
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 8px;
+    position: relative;
+}
+.page-top .page-top-r .cellphoneJD .title{
+    line-height: 30px;
+}
+
+.page-top .page-top-r .iconfont.icon-icon-test14{
+    font-size: 10px;
+}
+/* myJD的下拉菜单 */
+.page-top .page-top-r .myJD:hover{
+    background-color: #fff;
+}
+.page-top .page-top-r .myJD:hover .title{
+    color: red;
+}
+.page-top .page-top-r .myJD:hover .myJD-pop{
+    display: block;
+}
+.page-top .page-top-r .myJD .myJD-pop{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: -1px;
+    top: 29px;
+    border: 1px solid #EEEEEE;
+    overflow: hidden;
+    box-shadow:1px 2px 1px rgba(0,0,0,0.1);
+    border-top: none;
+    display: none;
+    background-color: #fff;
+    z-index: 10;
+}
+.page-top .page-top-r .myJD .myJD-pop li{
+    float: left;
+    width: 80px;
+    background-color: #fff;
+    margin-left: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+.page-top .page-top-r .myJD .myJD-pop li:hover{
+    color: red;
+}
+.page-top .page-top-r .myJD .myJD-pop .pop-top{
+    padding-top: 15px;
+    height: 70px;
+    border-bottom: 1px solid #eeeeee;
+}
+.page-top .page-top-r .myJD .myJD-pop .pop-btm{
+    padding-top: 10px;
+}
+/* 手机京东的下拉列表 */
+.page-top .page-top-r .cellphoneJD{
+    position: relative;
+}
+.page-top .page-top-r .cellphoneJD .iconfont.icon-icon-test22{
+    position: absolute;
+    font-size: 20px;
+    bottom: -13px;
+    left: 50%;
+    margin-left: -10px;
+    color:#fff;
+    display: none;
+}
+.page-top .page-top-r .cellphoneJD:hover .cellphoneJD-pop{
+    display: block;
+}
+.page-top .page-top-r .cellphoneJD:hover .iconfont.icon-icon-test22{
+    display: block;
+}
+
+.page-top .page-top-r .cellphoneJD .cellphoneJD-pop{
+    position: absolute;
+    right:0px;
+    top: 30px;
+    width: 200px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    padding-bottom: 20px;
+    box-shadow:1px 2px 1px rgba(0,0,0,0.1);
+    display: none;
+    background-color: #fff;
+    z-index: 10;
+}
+.page-top .page-top-r .cellphoneJD img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.page-top .page-top-r .cellphoneJD .pop-top-r{
+    width: 90px;
+    height: 80px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.page-top .page-top-r .cellphoneJD .pop-top-r h3{
+    font-size: 15px;
+    color: black;
+}
+.page-top .page-top-r .cellphoneJD .pop-top-r span{
+    display: inline-block;
+    color: red;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 20px;
+}
+.page-top .page-top-r .cellphoneJD .line{
+    position: absolute;
+    width: 200px;
+    border-bottom: 1px solid #eeeeee;
+    top: 110px;
+}
+/* 公共页面搜索 */
+.page-search{
+    border-bottom: 1px solid #dddddd;
+    background-color: #fff;
+    min-width: 1500px;
+}
+.page-search-box{
+    height: 150px;
+    overflow: hidden;
+}
+/* logo */
+.page-search-logo{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.page-search-logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* 搜索 */
+.page-search-mid{
+    float: left;
+    position: relative;
+}
+.page-search-mid .mid-search-input{
+    width: 600px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 2px solid red;
+    float: left;
+    border-right: none;
+    outline: none;
+    padding-left: 10px;
+}
+.page-search-mid .mid-search-input::-webkit-input-placeholder{
+    color:#dddddd;
+}
+.page-search-mid .mid-search-input::-moz-placeholder{
+    color:#dddddd;
+}
+.page-search-mid .mid-search-input:-moz-placeholder{
+    color:#dddddd;
+}
+.page-search-mid .mid-search-input:-ms-input-placeholder{
+    color:#dddddd;
+}
+
+.page-search-mid .mid-search-btn{
+    width: 50px;
+    height: 39px;
+    background: red url(../pic/search.png) center center no-repeat;
+    background-size: 20px 20px;
+    margin-top: 30px;
+    float: left;
+    border: none;
+    cursor: pointer;
+}
+.page-search-mid .mid-nav{
+    width: 600px;
+    height: 20px;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    overflow: hidden;
+}
+.page-search-mid .mid-nav a{
+    line-height: 20px;
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+.page-search-mid .mid-nav2{
+    width: 750px;
+    height: 30px;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    overflow: hidden;
+}
+.page-search-mid .mid-nav2 a{
+    line-height: 30px;
+    margin-left: 10px;
+    color: #919191;
+    font-size: 15px;
+    font-weight: 300;
+}
+.page-search-mid .mid-nav a:hover,
+.page-search-mid .mid-nav2 a:hover{
+    color: red;
+}
+
+/* 广告 */
+.page-search-ad{
+    float: right;
+}
+.page-search-ad img{
+    width: 180px;
+    height: 100px;
+    margin-top: 20px;
+}
+
