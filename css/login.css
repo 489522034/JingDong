@@ -1,0 +1,90 @@
+.container{
+    width: 1206px;
+    margin: auto;
+}
+/* 头部 */
+.page-top{
+    height: 150px;
+    background: #fff;
+}
+.page-top img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.page-top span{
+    font-size: 50px;
+    line-height: 150px;
+    margin-left: 100px;
+    color: #666;
+}
+/* 中间 */
+.page-mid{
+    height: 500px;
+    background: url('../pic/Bg.png') no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-mid .box{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;    
+    padding-top: 25px;
+}
+.page-mid .box h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+}
+.page-mid .box .a_p{
+    width: 336px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-left: 10px;
+    border: 1px solid #666;
+}
+.page-mid .box .a_p::-webkit-input-placeholder{
+    font-size: 15px;
+}
+.page-mid .box .a_p:focus{
+    outline: none;
+}
+.page-mid .box .submit{
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.page-mid .box h2{
+    font-size: 15px;
+    font-weight: normal;
+    color: red;
+    text-align: center;
+    display: none;
+}
+/* 底部 */
+.page-btm{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.page-btm span,a{
+    margin: 5px;
+    color: #666;
+}
+/* 注脚 */
+.footer p{
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
